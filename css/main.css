@@ -64,6 +64,7 @@ h1, h2, h3 {
 
 .body {
   line-height: 100;
+  padding-right: 5em;
 }
 
 .fes {
@@ -76,13 +77,13 @@ h1, h2, h3 {
 .bake {
   z-index: 5;
   top: 220px;
-  left: 500px;
+  left: 450px;
 }
 
 .one {
   z-index: 5;
-  top: 400px;
-  left: 300px;
+  top: 350px;
+  left: 350px;
 }
 
 .news {
