@@ -1,1 +1,96 @@
+header, footer {
+  background-color: #530606;
+  color: #fff;
+}
 
+li a {
+  color: #fff;
+  font-family: bree, sans-serif;
+}
+
+p {
+  font-family: pt-sans-pro, sans-serif;
+}
+
+li:hover {
+  transform: translateY(-7px);
+  border-bottom: 3px solid #fff;
+  transition: all .4s ease 0s;
+}
+
+.cook {
+  max-width: 200px;
+}
+
+h1, h2, h3 {
+  font-family: bree, sans-serif;
+}
+
+.btn {
+  background-color: #530606;
+  box-shadow: 0 5px 20px #000;
+  color: #fff;
+  font-family: bree, sans-serif;
+  border-radius: 30px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #B78E56;
+  transition: all .4s ease 0s;
+  box-shadow: 0 15px 20px #E0C298;
+  transform: translateY(-7px);
+}
+
+.cookie-btn:hover {
+  transition: all .4s ease 0s;
+  transform: translateY(-7px);
+}
+
+.festive {
+  object-fit: cover;
+  height: 550px;
+}
+
+.newsletter {
+  object-fit: cover;
+  height: 400px;
+}
+
+.head {
+  object-fit: cover;
+  height: 600px;
+}
+
+.body {
+  line-height: 100;
+}
+
+.fes {
+  z-index: 5;
+  top: 250px;
+  left: 300px;
+  color: #fff;
+}
+
+.bake {
+  z-index: 5;
+  top: 220px;
+  left: 500px;
+}
+
+.one {
+  z-index: 5;
+  top: 400px;
+  left: 300px;
+}
+
+.news {
+  z-index: 4;
+  top: 100px;
+  left: 500px;
+}
+
+.white {
+  color: #fff;
+}
