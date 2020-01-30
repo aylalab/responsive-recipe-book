@@ -226,7 +226,7 @@ ul li::before {
   color: #fff;
 }
 
-#menuToggle
+#menutoggle
 {
   display: block;
   position: relative;
@@ -239,7 +239,7 @@ ul li::before {
   user-select: none;
 }
 
-#menuToggle a
+#menutoggle a
 {
   text-decoration: none;
   color: #232323;
@@ -247,13 +247,13 @@ ul li::before {
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
+#menutoggle a:hover
 {
   color: tomato;
 }
 
 
-#menuToggle input
+#menutoggle input
 {
   display: block;
   width: 40px;
@@ -270,7 +270,7 @@ ul li::before {
   -webkit-touch-callout: none;
 }
 
-#menuToggle span
+#menutoggle span
 {
   display: block;
   width: 33px;
@@ -290,30 +290,30 @@ ul li::before {
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
+#menutoggle span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menutoggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
+#menutoggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menutoggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menutoggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
@@ -336,11 +336,10 @@ ul li::before {
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
   font-family: pt-sans-pro, sans-serif;
 }
 
-#menuToggle input:checked ~ ul
+#menutoggle input:checked ~ ul
 {
   transform: none;
 }
