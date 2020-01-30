@@ -24,7 +24,7 @@ p, small {
 
 li a:hover {
   transform: translateY(-7px);
-  border-bottom: 3px solid #BA0D0D;
+  border-bottom: 3px solid #ba0d0d;
   transition: all .4s ease 0s;
 }
 
@@ -40,7 +40,7 @@ dl {
 dt {
   float: left;
   width: 10%;
-  color: #BA0D0D;
+  color: #ba0d0d;
   font-family: bree, sans-serif;
 }
 
@@ -65,7 +65,7 @@ ul.li {
 
 ul li::before {
   content: "\2022";
-  color: #BA0D0D;
+  color: #ba0d0d;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -85,9 +85,9 @@ ul li::before {
 }
 
 .btn:hover {
-  background-color: #B78E56;
+  background-color: #b78e56;
   transition: all .4s ease 0s;
-  box-shadow: 0 15px 20px #E0C298;
+  box-shadow: 0 15px 20px #e0c298;
   transform: translateY(-7px);
 }
 
@@ -216,18 +216,11 @@ ul li::before {
   left: 13%;
 }
 
-.news {
-  z-index: 4;
-  top: 100px;
-  left: 500px;
-}
-
 .white {
   color: #fff;
 }
 
-#menutoggle
-{
+#menutoggle {
   display: block;
   position: relative;
   top: 30px;
@@ -239,22 +232,18 @@ ul li::before {
   user-select: none;
 }
 
-#menutoggle a
-{
+#menutoggle a {
   text-decoration: none;
   color: #232323;
 
-  transition: color 0.3s ease;
+  transition: color .3s ease;
 }
 
-#menutoggle a:hover
-{
+#menutoggle a:hover {
   color: tomato;
 }
 
-
-#menutoggle input
-{
+#menutoggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -270,56 +259,46 @@ ul li::before {
   -webkit-touch-callout: none;
 }
 
-#menutoggle span
-{
+#menutoggle span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-
   background: #fff;
   border-radius: 3px;
-
   z-index: 1;
-
-  transform-origin: 4px 0px;
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  transform-origin: 4px 0;
+  transition:
+    transform .5s cubic-bezier(.77, .2, .05, 1),
+    background .5s cubic-bezier(.77, .2, .05, 1),
+    opacity .55s ease;
 }
 
-#menutoggle span:first-child
-{
+#menutoggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menutoggle span:nth-last-child(2)
-{
+#menutoggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-#menutoggle input:checked ~ span
-{
+#menutoggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-#menutoggle input:checked ~ span:nth-last-child(3)
-{
+#menutoggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  transform: rotate(0deg) scale(.2, .2);
 }
 
-#menutoggle input:checked ~ span:nth-last-child(2)
-{
+#menutoggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
-{
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
@@ -330,17 +309,15 @@ ul li::before {
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform .5s cubic-bezier(.77, .2, .05, 1);
 }
 
-#menu li
-{
+#menu li {
   padding: 10px 0;
   font-family: pt-sans-pro, sans-serif;
 }
 
-#menutoggle input:checked ~ ul
-{
+#menutoggle input:checked ~ ul {
   transform: none;
 }
 
@@ -358,4 +335,5 @@ ul li::before {
   .mobile {
     visibility: hidden;
   }
+
 }
