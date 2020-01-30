@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Recipe book</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <header role="banner" class="recipe pad-b-2 push">
+    <nav class="mobile" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#"><li>Recipes</li></a>
+          <a href="#"><li>Shop</li></a>
+          <a href="#"><li>Cookie club</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+    <nav class="desktop text-left pad-t gutter" role="navigation" id="nav" tabindex="0">
+      <ul class="list-group-inline gutter-1-2">
+        <li class="gutter-1-2"><a class="link-box gutter-1-4 milli" href="#">Recipes</a></li>
+        <li class="gutter-1-2"><a class="link-box gutter-1-4 milli" href="#">Shop</a></li>
+        <li class="gutter-1-2"><a class="link-box gutter-1-4 milli" href="#">Cookie Club</a></li>
+        <li class="gutter-1-2"><a class="link-box gutter-1-4 milli" href="#">Blog</a></li>
+        <li class="gutter-1-2"><a class="link-box gutter-1-4 milli" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="pin-right-top island">
+      <i class="icon i-64">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+      </i>
+    </div>
+    <div class="grid pad-t-2 push-2">
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t unit-content-center">
+        <h1 class="text-center tenamega bold pad-t push-1-2">Recipes</h1>
+        <p class="text-center gutter-2 max-length">Even your grandmother will be jealous of these cookies.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <a class="linzer-recipe link-box push" href="linzer.html">
+      <h3 class="nina center-content pad-t-2">Linzer cookies</h3>
+    </a>
+    <a class="chocolate-recipe link-box push" href="chocolate.html">
+      <h3 class="nina center-content pad-t-2">Spiced chocolate crinkle cookies</h3>
+    </a>
+    <a class="trail-recipe link-box push" href="trail.html">
+      <h3 class="nina center-content pad-t-2">Trail mix cookies</h3>
+    </a>
+    <a class="center-content chip-recipe link-box push" href="chip.html">
+      <h3 class="text-center nina pad-t-2">Chocolate chip cookies</h3>
+    </a>
+
+    <div class="news text-center pad-b gutter">
+      <h3 class="new pad-t">Subscribe to our newsletter</h3>
+      <form class="text-center">
+        <div>
+          <label for="email"><email></label>
+          <input id="email" type="email" placeholder="me@me.com">
+        </div>
+        <div class="pad-t">
+          <button class="btn btn-ghost gutter" type="submit">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="pad-t-1-2">
+    <ul class="list-group-inline text-center pad-t-1-4 push-1-2">
+      <li class="gutter-1-2 milli"><a class="link-box" href="#">Privacy policy</a></li>
+      <li class="gutter-1-2 milli"><a class="link-box" href="#">Terms of use</a></li>
+    </ul>
+    <small class="pico text-center push-0 gutter-1-2">NOT YOUR GRANDMOTHER'S COOKIES © ALL RIGHTS RESERVED</small>
+  </footer>
+
+</body>
+</html>
